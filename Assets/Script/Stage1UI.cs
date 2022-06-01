@@ -10,6 +10,8 @@ public class Stage1UI : MonoBehaviour
     public GameObject Text2;
     public GameObject butt;
     public GameObject butt2;
+    public GameObject Next1;
+    public GameObject Pngs;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +36,8 @@ public class Stage1UI : MonoBehaviour
     {
         Text2.SetActive(false);
         butt2.SetActive(false);
+        Next1.SetActive(false);
+        Pngs.SetActive(true);
     }
 
 
