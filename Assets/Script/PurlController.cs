@@ -5,7 +5,7 @@ using UnityEngine;
 public class PurlController : MonoBehaviour
 {
     private Transform tm;
-    public int Speed = 1;
+    public float Speed = 1.0f;
 
     // Start is called before the first frame update
     void Awake()
@@ -47,4 +47,12 @@ public class PurlController : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision) //산호초 먹으면 사라지는 거 53:24
+    {
+        if(collision.gameObject.CompareTag("CanBePickedUp"))
+        {
+
+            collision.gameObject.SetActive(false);
+        }
+    }
 }
