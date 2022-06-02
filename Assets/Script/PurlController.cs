@@ -43,7 +43,7 @@ public class PurlController : MonoBehaviour
 
         if (key != 0)
         {
-            transform.localScale = new Vector3(key, 1, 1);
+            transform.localScale = new Vector3(key * 0.7f, 0.7f, 1);
         }
     }
 
