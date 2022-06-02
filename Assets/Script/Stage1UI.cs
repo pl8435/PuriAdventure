@@ -13,7 +13,6 @@ public class Stage1UI : MonoBehaviour
     public GameObject Next1;
     public GameObject Pngs;
     public GameObject SanHoCho;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -41,8 +40,6 @@ public class Stage1UI : MonoBehaviour
         Pngs.SetActive(true);
         SanHoCho.SetActive(true);
     }
-
-
 
 
 }
